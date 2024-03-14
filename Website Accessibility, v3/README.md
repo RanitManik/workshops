@@ -19,8 +19,6 @@ workshop. For more details, visit the [official workshop page](https://frontendm
 
 - [Course Review](#course-review)
 - [Links](#links)
-- [Course contents](#course-contents)
-- [Contact](#contact)
 - [Acknowledgment](#acknowledgment)
 
 ## Course Review
@@ -47,18 +45,8 @@ participants to contribute to a more accessible and user-friendly web.
 - [Course Website](https://web-accessibility-v3.vercel.app/)
 - [Original Course Repository](https://github.com/marcysutton/frontend-masters-web-accessibility-v3)
 
-## Course contents
-
-| # | Topic                   | Brief Description                           |
-|---|-------------------------|---------------------------------------------|
-| 1 | Introduction            | Overview, What is Accessibility, Standards. |
-| 2 | Screen Readers          | How They Work, Enabling, Alternative Text.  |
-| 3 | Accessibility Debugging | Linters, DevTools, Beyond Compliance.       |
-| 4 | Accessible HTML         | Semantic HTML, Language, Markup.            |
-| 5 | ARIA                    | Roles, States, Properties, Live Regions.    |
-| 6 | Focus Management        | Keyboard Navigation, Skip Links, Trapping.  |
-| 7 | Visual Considerations   | Color Contrast, Reflow, Zoom, Motion.       |
-
 ## Acknowledgment
 
-Special thanks to [Marcy Sutton Todd](https://frontendmasters.com/teachers/marcy-sutton/) for creating the Web Accessibility v3 workshop, and to Frontend Masters for providing a platform that allows students to learn from industry experts remotely.
+Special thanks to [Marcy Sutton Todd](https://frontendmasters.com/teachers/marcy-sutton/) for creating the Web
+Accessibility v3 workshop, and to Frontend Masters for providing a platform that allows students to learn from industry
+experts remotely.
