@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spacing & Dividing</title>
+    <style type="text/tailwindcss">
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+        @layer base {
+            body {
+                @apply m-6 bg-slate-700;
+            }
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div class="mx-auto max-w-max space-x-6 rounded bg-white px-4 py-2 text-center shadow-md">
+    <a href="#">Courses</a>
+    <a href="#">Learn</a>
+    <a href="#">Pricing</a>
+    <a href="#">Login</a>
+</div>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                // ...
+            },
+        },
+        plugins: [],
+    }
+</script>
+</body>
+</html>

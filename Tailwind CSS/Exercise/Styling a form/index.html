@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spacing & Dividing</title>
+    <style type="text/tailwindcss">
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+        body {
+            @apply my-10 bg-purple-50;
+        }
+
+        @layer components {
+            .simple-input {
+                @apply w-full rounded border-2 border-purple-600  p-2 focus:border-black disabled:border-purple-200 disabled:bg-purple-50;
+            }
+
+            .simple-btn {
+                @apply rounded border-2 border-purple-700 px-2 py-1 text-purple-800 disabled:border-purple-200 disabled:text-purple-200;
+            }
+        }
+
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<form onsubmit="event.preventDefault()"
+      class="container mx-auto space-y-6 rounded-md border-2 border-purple-600 bg-white p-4 text-purple-950 shadow-md">
+    <div class="space-y-1">
+        <label for="required" class="block text-sm font-semibold">Required Field</label>
+        <input class="simple-input" id="required" placeholder="Required Field" required/>
+    </div>
+
+    <div class="space-y-1">
+        <label for="disabled" class="block text-sm font-semibold">Disabled Field</label>
+        <input class="simple-input" id="disabled" placeholder="Disabled Field" disabled/>
+    </div>
+
+    <div class="space-y-1">
+        <label for="input" class="block text-sm font-semibold"> Input Field </label>
+        <input class="simple-input" id="input" placeholder="Input Field"/>
+    </div>
+
+    <div class="space-x-1">
+        <input id="terms" class="inline-block" type="checkbox"/>
+        <label for="terms">I accept the terms and conditions.</label>
+    </div>
+
+    <div class="space-x-2">
+        <button class="simple-btn bg-purple-300 hover:bg-purple-400">Submit</button>
+        <button class="simple-btn hover:bg-purple-100">Reset</button>
+        <button class="simple-btn" disabled>Disabled</button>
+    </div>
+</form>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                // ...
+            },
+        },
+        plugins: [],
+    }
+</script>
+</body>
+</html>

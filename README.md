@@ -22,10 +22,12 @@ content, code snippets, and additional references.
 
 ## List of Courses
 
-| Course Name                                                              | Author            |
-|--------------------------------------------------------------------------|-------------------|
-| [Web Accessibility v3](Website%20Accessibility%2C%20v3)                  | Marcy Sutton Todd |
-| [SVG Essentials & Animation](SVG%20Essentials%20%26%20Animation%2C%20v2) | Sarah Drasner     |
+| Course Name                                                                                                                            | Author            |
+|----------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| [Web Accessibility v3](Website%20Accessibility%2C%20v3)                                                                                | Marcy Sutton Todd |
+| [SVG Essentials & Animation](SVG%20Essentials%20%26%20Animation%2C%20v2)                                                               | Sarah Drasner     |
+| [JavaScript: From First Steps to Professional course on Frontend Masters](https://frontendmasters.com/courses/javascript-first-steps/) | Anjana Vakil      |
+| [Tailwind CSS](https://frontendmasters.com/courses/tailwind-css/)                                                                      | Steve Kinney      |
 
 ## How to Contribute
 
