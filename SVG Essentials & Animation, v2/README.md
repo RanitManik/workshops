@@ -18,12 +18,6 @@ official [workshop page](https://frontendmasters.com/courses/svg-essentials-anim
 > This is not the official repository for the SVG Essentials & Animation course. The original repository can be
 > found [here](https://github.com/sdras/svg-workshop).
 
-## Table of Contents
-
-- [Course Review](#course-review)
-- [Links](#links)
-- [Acknowledgment](#acknowledgment)
-
 ## Course Review
 
 The course provided an in-depth understanding of SVG, the versatile graphics format for the web. From debunking myths

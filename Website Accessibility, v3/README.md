@@ -6,13 +6,15 @@
 
 Welcome to the Web Accessibility v3 workshop Learning repository! This space is dedicated to materials and
 resources related to the
-insightful [Web Accessibility v3 workshop](https://frontendmasters.com/workshops/accessibility-v3/)
-by [Marcy Sutton Todd](https://frontendmasters.com/teachers/marcy-sutton/) on Frontend Masters. Explore reviews,
+insightful [Web Accessibility v3 workshop](https://frontendmasters.com/courses/react-accessibility/)
+by [Marcy Sutton Todd](https://frontendmasters.com/teachers/marcy-sutton/) on Frontend Masters. 
+
+Explore reviews,
 insights, and valuable resources from participants, making it your go-to source for all things related to this inclusive
-workshop. For more details, visit the [official workshop page](https://frontendmasters.com/workshops/accessibility-v3/).
+workshop. For more details, visit the [official workshop page](https://frontendmasters.com/courses/react-accessibility/).
 
 > [!NOTE]
-> This is not the official repository for the SVG Essentials & Animation course. The original repository can be
+> This is not the official repository for the Web Accessibility v3 workshop. The original repository can be
 > found [here](https://github.com/marcysutton/frontend-masters-web-accessibility-v3)
 
 ## Table of Contents

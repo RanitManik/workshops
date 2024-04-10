@@ -17,12 +17,6 @@ official [course page](https://frontendmasters.com/courses/javascript-first-step
 > This repository is not officially affiliated with the JavaScript: From First Steps to Professional course. The
 > original repository can be found [here](https://github.com/vakila/javascript-first-steps).
 
-## Table of Contents
-
-- [Course Review](#course-review)
-- [Links](#links)
-- [Acknowledgment](#acknowledgment)
-
 ## Course Review
 
 The JavaScript: From First Steps to Professional course offers a comprehensive journey into the world of JavaScript
