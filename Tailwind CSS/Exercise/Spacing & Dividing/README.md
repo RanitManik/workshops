@@ -1,1 +1,1 @@
-https://play.tailwindcss.com/oXyNx6tES2
+https://play.tailwindcss.com/oXyNx6tES2?layout=preview&file=css

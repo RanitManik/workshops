@@ -17,20 +17,19 @@
 
         @layer components {
             .simple-input {
-                @apply w-full rounded border-2 border-purple-600  p-2 focus:border-black disabled:border-purple-200 disabled:bg-purple-50;
+                @apply w-full rounded border-2 border-purple-300  p-2 placeholder-purple-400 caret-purple-600 outline-none ring-purple-300 valid:border-green-500 invalid:border-red-400 focus:border-purple-500 focus:ring-4 disabled:border-purple-200 disabled:bg-purple-50;
             }
 
             .simple-btn {
                 @apply rounded border-2 border-purple-700 px-2 py-1 text-purple-800 disabled:border-purple-200 disabled:text-purple-200;
             }
         }
-
     </style>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 <form onsubmit="event.preventDefault()"
-      class="container mx-auto space-y-6 rounded-md border-2 border-purple-600 bg-white p-4 text-purple-950 shadow-md">
+      class="container mx-auto max-w-screen-md space-y-6 rounded-md border-2 border-purple-600 bg-white p-4 text-purple-950 shadow-md">
     <div class="space-y-1">
         <label for="required" class="block text-sm font-semibold">Required Field</label>
         <input class="simple-input" id="required" placeholder="Required Field" required/>
@@ -38,7 +37,7 @@
 
     <div class="space-y-1">
         <label for="disabled" class="block text-sm font-semibold">Disabled Field</label>
-        <input class="simple-input" id="disabled" placeholder="Disabled Field" disabled/>
+        <input class="simple-input cursor-not-allowed" id="disabled" placeholder="Disabled Field" disabled/>
     </div>
 
     <div class="space-y-1">
@@ -47,7 +46,7 @@
     </div>
 
     <div class="space-x-1">
-        <input id="terms" class="inline-block" type="checkbox"/>
+        <input id="terms" class="inline-block accent-purple-600" type="checkbox"/>
         <label for="terms">I accept the terms and conditions.</label>
     </div>
 
