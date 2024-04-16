@@ -1,10 +1,6 @@
-![Frontend Masters](https://static.frontendmasters.com/assets/brand/logos/full.png)
-
-<!--
 <div align="center">
   <h1> Frontend Masters Courses Repository</h1>
 </div>
--->
 
 Welcome to the Frontend Masters Courses Repository! This centralized repository serves as a hub for materials and
 resources related to various Frontend Masters courses. Whether you're a beginner or an experienced developer, this
