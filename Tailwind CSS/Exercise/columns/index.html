@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spacing & Dividing</title>
+    <style type="text/tailwindcss">
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+        @layer base {
+            body {
+                @apply m-6 bg-slate-700;
+            }
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div class="columns-2 container">
+    <div class="mb-6 break-inside-avoid-column rounded border-2 border-slate-100 bg-slate-50 p-4 shadow-md">
+        <h3 class="font-semibold text-purple-500">Morning Patrol</h3>
+        <p>Scanning the city horizon while the citizens awaken, ensuring no threats loom.</p>
+    </div>
+
+    <div class="mb-6 break-inside-avoid-column rounded border-2 border-slate-100 bg-slate-50 p-4 shadow-md">
+        <h3 class="font-semibold text-purple-500">Alien Encounter</h3>
+        <p>A brief skirmish with an alien invader above the downtown skyline.</p>
+    </div>
+
+    <div class="mb-6 break-inside-avoid-column rounded border-2 border-slate-100 bg-slate-50 p-4 shadow-md">
+        <h3 class="font-semibold text-purple-500">Heroic Brunch</h3>
+        <p>A quick bite with fellow guardians, strategizing the day's protection plan.</p>
+    </div>
+
+    <div class="mb-6 break-inside-avoid-column rounded border-2 border-slate-100 bg-slate-50 p-4 shadow-md">
+        <h3 class="font-semibold text-purple-500">Afternoon Rescue</h3>
+        <p>Saving a school bus on the brink of a bridge collapse.</p>
+    </div>
+
+    <div class="mb-6 break-inside-avoid-column rounded border-2 border-slate-100 bg-slate-50 p-4 shadow-md">
+        <h3 class="font-semibold text-purple-500">Secret Identity</h3>
+        <p>Spending a few hours as a mild-mannered persona, connecting with the locals.</p>
+    </div>
+
+    <div class="mb-6 break-inside-avoid-column rounded border-2 border-slate-100 bg-slate-50 p-4 shadow-md">
+        <h3 class="font-semibold text-purple-500">Training</h3>
+        <p>Honing skills and reflexes with state-of-the-art simulation technology.</p>
+    </div>
+
+    <div class="mb-6 break-inside-avoid-column rounded border-2 border-slate-100 bg-slate-50 p-4 shadow-md">
+        <h3 class="font-semibold text-purple-500">Evening Patrol</h3>
+        <p>A silent glide through the city's shadows, keeping watch as night falls.</p>
+    </div>
+
+    <div class="mb-6 break-inside-avoid-column rounded border-2 border-slate-100 bg-slate-50 p-4 shadow-md">
+        <h3 class="font-semibold text-purple-500">Nemesis Showdown</h3>
+        <p>An epic confrontation under the stars, a fight for the city's soul.</p>
+    </div>
+
+    <div class="mb-6 break-inside-avoid-column rounded border-2 border-slate-100 bg-slate-50 p-4 shadow-md">
+        <h3 class="font-semibold text-purple-500">Secret Lair</h3>
+        <p>Retreating to the underground haven to recharge and prepare for what lies ahead.</p>
+    </div>
+</div>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                // ...
+            },
+        },
+        plugins: [],
+    }
+</script>
+</body>
+</html>

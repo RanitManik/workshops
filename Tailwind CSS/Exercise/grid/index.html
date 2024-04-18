@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spacing & Dividing</title>
+    <style type="text/tailwindcss">
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div class="grid h-screen grid-flow-row grid-rows-8 bg-black">
+    <header class="w-full content-center bg-red-500 text-center"><p>header</p></header>
+    <div class="row-span-6 grid grid-flow-col grid-cols-5 text-center">
+        <div class="content-center bg-blue-500"><p>sidebar</p></div>
+        <main class="col-span-4 content-center bg-yellow-500"><p>main content</p></main>
+    </div>
+    <footer class="w-full content-center bg-green-500 text-center"><p>footer</p></footer>
+</div>
+
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                // ...
+            },
+        },
+        plugins: [],
+    }
+</script>
+</body>
+</html>

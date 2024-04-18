@@ -14,7 +14,7 @@ insights, and valuable resources from participants, making it your go-to source 
 workshop. For more details, visit the [official workshop page](https://frontendmasters.com/courses/tailwind-css/).
 
 > [!NOTE]
-> This is not the official repository for the SVG Essentials & Animation course.
+> This is not the official repository for the Tailwind CSS course.
 
 ## Course Review
 

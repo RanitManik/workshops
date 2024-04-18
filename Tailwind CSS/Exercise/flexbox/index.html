@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spacing & Dividing</title>
+    <style type="text/tailwindcss">
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+        @layer base {
+            body {
+                @apply bg-slate-700;
+            }
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<section class="flex min-h-screen flex-col md:items-start justify-center gap-2 p-6 md:flex-row">
+    <article class="from-bg-slate-50 to-bg-slate-100 rounded-lg border-2 border-slate-200 bg-slate-50 bg-gradient-to-br p-8 shadow-lg">
+        <blockquote>Be yourself; everyone else is already taken.</blockquote>
+        <cite class="block text-right font-semibold text-rose-700 before:text-slate-500 before:content-['—_']">Oscar While</cite>
+    </article>
+    <article class="from-bg-slate-50 to-bg-slate-100 rounded-lg border-2 border-slate-200 bg-slate-50 bg-gradient-to-br p-8 shadow-lg">
+        <blockquote>In three words I can sum up everything I've learned about life: it goes on.</blockquote>
+        <cite class="block text-right font-semibold text-rose-700 before:text-slate-500 before:content-['—_']">Robert Frost</cite>
+    </article>
+    <article class="from-bg-slate-50 to-bg-slate-100 rounded-lg border-2 border-slate-200 bg-slate-50 bg-gradient-to-br p-8 shadow-lg">
+        <blockquote>Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.</blockquote>
+        <cite class="block text-right font-semibold text-rose-700 before:text-slate-500 before:content-['—_']">H. Jackson Brown Jr.</cite>
+    </article>
+    <article class="from-bg-slate-50 to-bg-slate-100 rounded-lg border-2 border-slate-200 bg-slate-50 bg-gradient-to-br p-8 shadow-lg">
+        <blockquote>Love is the ultimate outlaw. It just won't adhere to any rules. The most any of us can do is to sign on as its accomplice. Instead of vowing to honor and obey, maybe we should swear to aid and abet. That would mean that security is out of the question. The words "make" and "stay" become inappropriate. My love for you has no strings attached. I love you for free.</blockquote>
+        <cite class="block text-right font-semibold text-rose-700 before:text-slate-500 before:content-['—_']">Tom Robbins</cite>
+    </article>
+</section>
+
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                // ...
+            },
+        },
+        plugins: [],
+    }
+</script>
+</body>
+</html>
