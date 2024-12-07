@@ -1,39 +1,10 @@
 <div align="center">
-  <h1> Frontend Masters Courses Repository</h1>
+  <h1>workshops</h1>
 </div>
-
-Welcome to the Frontend Masters Courses Repository! This centralized repository serves as a hub for materials and
-resources related to various Frontend Masters courses. Whether you're a beginner or an experienced developer, this
-collection is designed to enhance your understanding and skills in a variety of frontend development topics.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [List of Courses](#list-of-courses)
-- [How to Contribute](#how-to-contribute)
-- [Contact](#contact)
-- [Acknowledgment](#acknowledgment)
-
-## Introduction
 
 This repository consolidates learning materials from Frontend Masters courses, providing a convenient and organized way
 to access resources for self-paced learning. Each course is represented with its own directory containing relevant
 content, code snippets, and additional references.
-
-## List of Courses
-
-| Course Name                                                                                                                            | Author            |
-|----------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| [Web Accessibility v3](Website%20Accessibility%2C%20v3)                                                                                | Marcy Sutton Todd |
-| [SVG Essentials & Animation](SVG%20Essentials%20%26%20Animation%2C%20v2)                                                               | Sarah Drasner     |
-| [JavaScript: From First Steps to Professional course on Frontend Masters](https://frontendmasters.com/courses/javascript-first-steps/) | Anjana Vakil      |
-| [Tailwind CSS](https://frontendmasters.com/courses/tailwind-css/)                                                                      | Steve Kinney      |
-
-## How to Contribute
-
-Contributions to this repository are welcome! If you've taken a Frontend Masters course and want to share additional
-resources, notes, or improvements, feel free to submit a pull request. Follow the guidelines outlined in
-the [CONTRIBUTING.md](CONTRIBUTING.md) file to ensure a smooth collaboration.
 
 ## Contact
 
