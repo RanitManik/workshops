@@ -1,6 +1,6 @@
 <div align="center">
   <h1>📚 Workshops Repository</h1>
-  <p>Your one-stop hub for consolidated learning materials from various platforms!</p>
+  <p>My one-stop hub for consolidated learning materials from various platforms!</p>
 </div>
 
 ## 📖 Overview
