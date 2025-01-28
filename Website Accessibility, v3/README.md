@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h1> Frontend Masters Web Accessibility v3 Workshop</h1>
+  <h1> Frontend Masters Web Accessibility v3 Workshop ✅</h1>
 </div>
 
 Welcome to the Web Accessibility v3 workshop Learning repository! This space is dedicated to materials and
@@ -19,6 +19,7 @@ workshop. For more details, visit the [official workshop page](https://frontendm
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Course Review](#course-review)
 - [Links](#links)
 - [Acknowledgment](#acknowledgment)
