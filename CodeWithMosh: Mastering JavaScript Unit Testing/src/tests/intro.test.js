@@ -1,15 +1,15 @@
-import { describe, test, it, expect } from "vitest";
+import { describe, it, expect } from "vitest";
 import { calculateAverage, factorial, fizzBuzz, max } from "../intro";
 
 describe("max", () => {
   it("should return the first argument if it is greater", () => {
     // AAA => Arrange + Act + Assert
-    /* 
+    /*
     // Arrange
     const a = 1;
     const b = 3;
 
-    // Act 
+    // Act
     const result = max(a, b);
 
     // Assert
@@ -93,7 +93,7 @@ describe("calculateAverage", () => {
     expect(calculateAverage([1, 2])).toBe(1.5);
     expect(calculateAverage([-1, 2])).toBe(0.5);
     expect(calculateAverage([1, -4, 79, 48, 47, -102, 12, 4, -454, 1000])).toBe(
-      63.1
+      63.1,
     );
   });
 });
