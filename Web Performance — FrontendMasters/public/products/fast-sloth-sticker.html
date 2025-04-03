@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fast Sloth Sticker - Developer Stickers Online</title>
+  <script>
+    const API_BASE_URL = `${location.protocol}//${location.host}`;
+    const STATIC_BASE_URL = `${location.protocol}//${location.host}`;
+  </script>
+  <script src="/assets/js/scripts.js"></script>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="container flex-row align-center space-between">
+      <a href="/" class="site-logo flex align-center flex-gap-10">
+        <div class="site-icon">
+          <img src="/assets/img/devstickers-logo.png" alt="Developer Stickers Online" />
+        </div>
+        <h1 class="flex-column">
+          <span>Developer Stickers</span>
+          <em>Online</em>
+        </h1>
+      </a>
+      <div class="cart">
+        <a href="/cart" class="flex align-center">Cart<span id="cart-count">0</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="product-detail">
+      <picture>
+        <img src="/assets/img/fast-sloth-sticker.png" alt="Fast Sloth Sticker">
+      </picture>
+
+      <div class="product-info">
+        <h1>Fast Sloth Sticker</h1>
+        <p>
+          Get your hands on this awesome Request Metrics sloth sticker, featuring our chill mascot riding a
+          rocket—perfect for your laptop or desk!
+        </p>
+        <button type="button" class="add-to-cart btn-primary" data-product-id="1">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container align-center justify-center">
+      <p>
+        Example online store website for the <a href="https://frontendmasters.com/courses/web-perf/">Fundamentals of
+          Web Performance</a>
+        workshop by <a href="https://toddhgardner.com/">Todd H. Gardner</a>.
+      </p>
+      <p>
+        Not intended for production use.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
