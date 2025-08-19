@@ -60,6 +60,6 @@ type Mutation {
   createUser(input: AuthInput!): User
   signin(input: AuthInput!): User
 }
-`
+`;
 
-export default schema
+export default schema;
