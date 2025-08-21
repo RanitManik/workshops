@@ -1,7 +1,6 @@
 "use client";
 
 import PageHeader from "../_components/PageHeader";
-import { useMutation, useQuery } from "urql";
 import { useState } from "react";
 import {
     Button,
@@ -17,14 +16,31 @@ import {
 } from "@nextui-org/react";
 import { PlusIcon } from "lucide-react";
 import Issue from "../_components/Issue";
+import { IssuesQuery } from "@/gql/issuesQuery";
+import { useMutation, useQuery } from "@urql/next";
+import { CreateIssueMutation } from "@/gql/createIssueMutation";
 
 const IssuesPage = () => {
     const { isOpen, onOpen, onOpenChange } = useDisclosure();
     const [issueName, setIssueName] = useState("");
     const [issueDescription, setIssueDescription] = useState("");
+    const [{ data, fetching, error }, replay] = useQuery({
+        query: IssuesQuery,
+    });
+    const [newIssueResult, createNewIssue] = useMutation(CreateIssueMutation);
 
-    const onCreate = async (close) => {};
+    const onCreate = async (close: any) => {
+        const result = await createNewIssue({
+            input: { name: issueName, content: issueDescription },
+        });
 
+        if (result.data) {
+            await replay();
+            close();
+            setIssueName("");
+            setIssueDescription("");
+        }
+    };
     return (
         <div>
             <PageHeader title="All issues">
@@ -38,12 +54,14 @@ const IssuesPage = () => {
                 </Tooltip>
             </PageHeader>
 
-            {[].map((issue) => (
-                <div key={issue.id}>
-                    <Issue issue={issue} />
-                </div>
-            ))}
-
+            {fetching && <Spinner />}
+            {error && <div>error</div>}
+            {data &&
+                data.issues.map((issue: any) => (
+                    <div key={issue.id}>
+                        <Issue issue={issue} />
+                    </div>
+                ))}
             <Modal
                 size="2xl"
                 isOpen={isOpen}
@@ -94,7 +112,7 @@ const IssuesPage = () => {
                             <ModalFooter className="border-t">
                                 <Button
                                     variant="ghost"
-                                    onPress={() => onOpenChange(false)}
+                                    onPress={() => onOpenChange()}
                                 >
                                     Cancel
                                 </Button>
